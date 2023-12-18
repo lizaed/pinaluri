@@ -1,11 +1,14 @@
 h1{
     color: #000;
 
-    font-family: JejuMyeongjo;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; 
+font-family: JejuMyeongjo;
+font-size:30px;
+font-style: normal;
+font-weight: 200px;
+line-height: normal; 
+    font-family: 'Kalnia', serif;
+    font-family: 'Roboto', sans-serif;
+    width: 205px;
 }
 h3{
     color: #000;
@@ -85,7 +88,7 @@ line-height: normal;
     align-items: center;
 }
 .section1{
-    width: 1530px;
+    width: 1520px;
     height: 550px;
    margin-top: 42px;
    background-image: url(../images/download.jpg);
@@ -107,12 +110,142 @@ font-size: 70px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-bottom: 37px;
+}
+
+.section2{
+    height: 944px;
+    
+    justify-content: space-around;
+    margin-top: 98px;
+    
+}
+h6{
+    color: #000;
+
+    font-family: 'Kalnia', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-bottom: 92px;
+}
+.container2{
+    max-width: 1070px;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+   
+}
+.productsdiv{
+    width: 324px;
+height: 450px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+}
+.img1{
+    width: 324px;
+    height: 324px;
+}
+.seeall{
+    width: 235px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 5px;
+background-color: rgba(11, 37, 56, 0.80);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 150px;
+}
+.seeall:hover{
+    background-color:rgb(76, 129, 129);
+}
+.lasth1{
+    color: #000;
+
+    font-family: Kameron;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.hh2{
+    color: #FFF;
+
+font-family: JejuMyeongjo;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.container3{
+    width: 235px;
+    height: 160px;
+    margin: 0 auto;   
+}
+.section3{
+    width: 1520px;
+    height: 578px;
+background-image: url(../images/download7.jpg);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.secdiv{
+    width: 1520px;
+height: 333px;
+flex-shrink: 0;
+background: #273A47;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.pn2{
+    width: 1140px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Karma;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.button{
+    width: 241.446px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 7px;
+background: #19364A;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.button:hover{
+    background-color: rgb(45, 78, 78);
+}
+.container4{
+    width: 1432px;
+    height: 430px;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 footer{
-    width:14s40px;
-    height: 350px;
-    background-color: #E4E4E4;;
-    margin-top: 50px;
+    width:1520px;
+    height: 430px;
+    background-color: #E4E4E4;
+   
     
 }
 p{
@@ -129,12 +262,12 @@ line-height: normal;
 margin-top: 13px;
 }
 .footersdiv{
-    height: 180px;
-    width: 86px;
+    height: 200px;
+    width: 250px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 44px;
 }
 a{
     color: #000;
@@ -145,4 +278,121 @@ a{
     font-weight: 400;
     line-height: normal; 
     margin-top: 20px;
+    margin-right: 29px;
+}
+.informationdiv{
+    width: 250px;
+    height: 21px;
+    display: flex;
+}
+.footersdiv2{
+    width: 190px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.titdiv{
+    width: 660px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.linediv2{
+    width: 180px;
+    height: 1px;
+    background-color: #000;
+    margin-bottom: 92px;  
+}
+.divn2{
+    width: 360px;
+    height: 350px;
+}
+.lasth{
+margin-left: 0px;
+font-family: 'Kaushan Script', cursive;
+font-size: 25px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 5px;
+
+}
+.linediv{
+    width: 180px;
+    height: 1px;
+    background-color: #000;
+    margin-bottom: 17px;
+
+}
+.linesh{
+    color: #000;
+    width: 1px;
+    height: 1px;
+    display: none;
+}
+.lasth11{
+    color: #000;
+    font-family: Kameron;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    margin-bottom: 17px; 
+}
+form{
+    width: 510px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    
+}
+
+#subscribe{
+    width: 148px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #273A47;
+color: #FFF;
+
+font-family: Karma;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#subscribe:hover {
+    background-color:#2f4554;
+
+}
+#fmail{
+  
+width: 339px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid #000;
+
+background: #FFF;
+padding-left: 20px;
+color: #000;
+
+font-family: Karma;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.formdiv{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    justify-content: space-between;
 }
