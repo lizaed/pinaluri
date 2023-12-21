@@ -26,31 +26,36 @@ width: 100px;
 ul{
     display: flex;
     justify-content: space-between;
-    width: 550px;
+    width: 350px;
     align-items: center;
 }
 .logodiv{
     display:flex;
     justify-content: space-between;
-    width: 150px;
+    max-width: 150px;
+    width: 100%;
     align-items: center;
     
 }
 .container{
     display: flex;
     justify-content: space-between;
-    max-width: 1254px;
+    max-width: 1260px;
     width: 100%;
     margin: 0 auto;
     padding-top: 40px;
+    gap: 50px;
 }
 nav{
     display: flex;
-    justify-content: space-between;
-    width: 550px;
+    justify-content: space-between; 
+    max-width:600px ;
+    width:100%;
+    align-items: center;
 }
 .navdiv{
-    width: 188px;
+    max-width: 188px;
+    width: 100%;
     height: 21px;
     flex-shrink: 0; 
    background-color: #D9D9D980;
@@ -60,7 +65,20 @@ nav{
    padding-left: 5px;
    justify-content: space-between;
    align-items: center;
+   gap: 30px;
 
+}
+.fa-bars{
+    display: none;
+}
+.lisa{
+    color: #000;
+
+    font-family: JejuMyeongjo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .navdiv:hover{
 background-color: lightgray;
@@ -84,11 +102,14 @@ line-height: normal;
 .iconsdiv{
     display: flex;
     justify-content: space-between;
-    width: 75px;
+    max-width: 75px;
+    width: 100%;
+    gap: 15px;
     align-items: center;
 }
 .section1{
-    width: 1520px;
+    max-width: 1520px;
+    width: 100%;
     height: 550px;
    margin-top: 42px;
    background-image: url(../images/download.jpg);
@@ -99,8 +120,10 @@ line-height: normal;
    justify-content: center;
   
 }
-h4{width: 684px;
-    height: 152px;
+h4{max-width:684px;
+    width: 100%;
+   max-height: 152px;
+   height: 100%;
     flex-shrink: 0;
     color: #FFF;
 
@@ -117,7 +140,7 @@ margin-bottom: 37px;
     height: 944px;
     
     justify-content: space-around;
-    margin-top: 98px;
+    margin-top: 68px;
     
 }
 h6{
@@ -132,17 +155,22 @@ h6{
     margin-bottom: 92px;
 }
 .container2{
-    max-width: 1070px;
+    max-width: 1060px;
     width: 100%;
-    height: 420px;
+    max-height: 420px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    gap: 10px;
+    flex-wrap: wrap;
    
 }
 .productsdiv{
-    width: 324px;
-height: 450px;
+   max-width: 324px;
+   width: 100%;
+ max-height: 450px;
+ height: 100%;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -150,8 +178,10 @@ align-items: center;
 
 }
 .img1{
-    width: 324px;
-    height: 324px;
+   max-width: 324px;
+   width: 100%;
+   max-height: 324px;
+   height: 100%;
 }
 .seeall{
     width: 235px;
@@ -178,12 +208,15 @@ margin-top: 150px;
 }
 .hh2{
     color: #FFF;
-
+width: 175px;
 font-family: JejuMyeongjo;
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-left: 30px;
+margin-bottom: 20px;
+
 }
 .container3{
     width: 235px;
@@ -191,8 +224,8 @@ line-height: normal;
     margin: 0 auto;   
 }
 .section3{
-    width: 1520px;
-    height: 578px;
+  max-width: 1520px;
+   height: 578px;
 background-image: url(../images/download7.jpg);
 display: flex;
 align-items: center;
@@ -200,7 +233,8 @@ justify-content: center;
 flex-direction: column;
 }
 .secdiv{
-    width: 1520px;
+   max-width: 1520px; 
+   width: 100%;
 height: 333px;
 flex-shrink: 0;
 background: #273A47;
@@ -209,8 +243,10 @@ align-items: center;
 justify-content: center;
 }
 .pn2{
-    width: 1140px;
-    height: 45px;
+   max-width: 1140px;
+   width: 100%;
+   max-height: 45px;
+   height: 100%;
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
@@ -234,7 +270,8 @@ justify-content: center;
     background-color: rgb(45, 78, 78);
 }
 .container4{
-    width: 1432px;
+    max-width: 1432px;
+    width: 100%;
     height: 430px;
     margin: 0 auto;
     padding-top: 40px;
@@ -242,14 +279,16 @@ justify-content: center;
     justify-content: space-between;
 }
 footer{
-    width:1520px;
+    max-width:1520px;
+    width: 100%;
     height: 430px;
     background-color: #E4E4E4;
    
     
 }
 p{
-    width: 304px;
+   max-width: 304px;
+   width: 100%;
 height: 22px;
 flex-shrink: 0;
 color: #000;
@@ -263,7 +302,8 @@ margin-top: 13px;
 }
 .footersdiv{
     height: 200px;
-    width: 250px;
+    max-width: 250px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -281,19 +321,22 @@ a{
     margin-right: 29px;
 }
 .informationdiv{
-    width: 250px;
+    max-width: 250px;
+    width: 100%;
     height: 21px;
     display: flex;
 }
 .footersdiv2{
-    width: 190px;
+   max-width: 190px;
+   width: 100%;
     height: 190px;
     display: flex;
     flex-direction: column;
    
 }
 .titdiv{
-    width: 660px;
+   max-width: 660px;
+   width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -301,13 +344,15 @@ a{
    
 }
 .linediv2{
-    width: 180px;
+    max-width: 180px;
+    width: 100%;
     height: 1px;
     background-color: #000;
     margin-bottom: 92px;  
 }
 .divn2{
-    width: 360px;
+   max-width: 360px;
+   width: 100%;
     height: 350px;
 }
 .lasth{
@@ -322,11 +367,19 @@ margin-bottom: 5px;
 
 }
 .linediv{
-    width: 180px;
-    height: 1px;
+   max-width: 180px;
+   width: 100%;
+    height: 2px;
     background-color: #000;
     margin-bottom: 17px;
 
+}
+.topdiv{
+   max-width: 590px;
+   width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
 }
 .linesh{
     color: #000;
@@ -344,16 +397,18 @@ margin-bottom: 5px;
     margin-bottom: 17px; 
 }
 form{
-    width: 510px;
+   max-width: 510px;
+   width: 100%;
     height: 40px;
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
+    margin-left: 170px;
     
 }
 
 #subscribe{
-    width: 148px;
+   max-width: 148px;
+   width: 100%;
 height: 40px;
 flex-shrink: 0;
 border-radius: 12px;
@@ -372,7 +427,8 @@ line-height: normal;
 }
 #fmail{
   
-width: 339px;
+max-width: 339px;
+width: 100%;
 height: 40px;
 flex-shrink: 0;
 border-radius: 12px;
@@ -390,9 +446,129 @@ line-height: normal;
 
 }
 .formdiv{
-    width: 600px;
+   max-width: 670px;
+   width: 100%;
     display: flex;
     flex-wrap: wrap;
-    height: 450px;
+    height: 350px;
     justify-content: space-between;
+    
+}
+.loggosdiv{
+  max-width: 130px;
+  width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section4{
+    max-width: 1520px;
+    width: 100%;
+    height: 550px;
+   margin-top: 42px;
+   background-image: url(../images/download9.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.section5{
+    height: 944px;
+    
+    justify-content: space-between;
+    margin-top: 68px;
+
+}
+.storydiv{
+    width: 190px;
+    height: 190px;
+    background-color:#273A47; 
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboutsh1{
+    color: #FFF;
+    font-family: Kaisei Decol;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 85px;
+} 
+.textdiv{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.linkdiv{
+    max-width: 1150px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+   
+}
+.absh12{
+    width: 350px;
+height: 292px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Kaisei Decol;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.container5{
+    max-width: 1060px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 10px;
+    flex-wrap: wrap; 
+}
+.section6{
+    max-width: 1520px;
+    height: 478px;
+ background-image: url(../images/download11.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+ display: flex;
+ flex-direction: column;  
+ padding-left: 80px;
+ justify-content: space-around;
+ margin-bottom: 190px;
+}
+.aboutsp{
+    width: 777px;
+height: 287px;
+flex-shrink: 0;
+color: darkslategray;
+font-family: Kadwa;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.aboutsh4{
+    max-width:450px;
+    width: 100%;
+   max-height: 20px;
+    flex-shrink: 0;
+    color: #FFF;
+
+text-align: center;
+font-family: Judson;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
 }
