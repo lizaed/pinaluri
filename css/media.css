@@ -1,5 +1,10 @@
-@media(max-width:1390px){.container{
+@media(max-width:1390px){
+    .container{
  width: 95%;
+
+}
+.container4{
+    width: 95%;
 }
 }
 @media( max-width:1050px){
@@ -15,7 +20,7 @@
    }
     .fa-bars{
         display: block;
-        margin-left:20px;
+
     }
     
     .container{
@@ -29,18 +34,12 @@
   
 }
 
-@media(max-width:983px) {
+@media(max-width:723px) {
     .container2 {
-        flex-direction: column;
+        flex-direction:column;
         align-items: center;
         justify-content: space-between;
-    }
-    .productsdiv{
-        width: 168px;
-        height: 168px;
-        margin-bottom: 80px;
-
-
+        display: flex;
     }
     .section2{
         margin-bottom:66px;
@@ -62,11 +61,68 @@
     .secdiv{
         height: 140px;
     }
+    .img1{
+        width: 190px;
+        height: 160px
+    }
+    h1{
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+    }
+    .container5{
+     flex-direction: column;
+     align-items: center;
+     height: 550px;
+     justify-content: space-between;
+     width: 90%;
+    }
+    .absh4{
+        width: 243px;
+        height: 46px;
+         
+    }
+    
+
+    
+}
+@media(max-width:984px){
+    .absh12{
+     display: none;
+    }
+    .container7{
+        width: 95%;
+        gap: 30px;
+    }
+}
+@media(max-width:776px){
     form{
         display: none;
     }
     .footersdiv{
      display: none;
+    }  
+    .container4{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
     }
-    
+    footer{
+        height: 430px;
+    }
+
+}
+@media(max-width:837px){
+    .img13{
+        width: 120px;
+        height: 120px;
+    }
+    .secprdiv{
+        max-width: 450px;
+        gap: 4px;
+    }
+    .textp{
+        margin-bottom: 20px;
+    }
 }
